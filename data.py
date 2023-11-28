@@ -4,8 +4,8 @@ import pickle
 def get_data(size) -> (set, list, list):
     U = set(range(1, size+1))
     S = []
-    covered = set() 
-    while len(S)<size or covered != U:  
+    covered = set()
+    while len(S)<=50 or covered != U:  
         temp = set(rand.sample(U, rand.randint(1, size)))
         S.append(temp)
         covered.update(temp)

@@ -52,10 +52,6 @@ if __name__ == '__main__':
     U_kecil, S_kecil, C_kecil = load_data("data/data_kecil.pickle")
     U_sedang, S_sedang, C_sedang = load_data("data/data_sedang.pickle")
     U_besar, S_besar, C_besar = load_data("data/data_besar.pickle")
-    # print("Data Kecil")
-    # print(f'U: {U_kecil}')
-    # print(f'S: {S_kecil}')
-    # print(f'C: {C_kecil}')
 
     # Run Algorithm
     print("=== DATA KECIL ===")
